@@ -1,0 +1,32 @@
+.back{
+    background-image: url(https://img.freepik.com/free-vector/passengers-waiting-bus-city-queue-town-road-flat-vector-illustration-public-transport-urban-lifestyle_74855-8493.jpg?w=1060&t=st=1663096145~exp=1663096745~hmac=dbbec80f2e502db96479b9a2897eec8517e5b43d6e2470b481b90a12c2064b44);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+.centre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 300px;
+    font-size: 30px;
+    color: black;
+} 
+
+.top{
+    background-color:greenyellow;
+    border-radius: 10px;
+}
+
+.last{
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.btn{
+    background-color: white;
+    border-radius: 5px;
+}
+
