@@ -1,0 +1,27 @@
+.centre{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+.backgr{
+    background-image: url(https://media.istockphoto.com/photos/white-bus-traveling-on-the-asphalt-road-in-a-rural-landscape-at-picture-id879364174?k=20&m=879364174&s=612x612&w=0&h=JJ90BcO8di7yr0EuHMelSZ3H8W6RGJ8fSgyBViPcP34=);
+    overflow: hidden;
+    background-size: cover;
+}
+.last{
+    margin-top: -20px;
+}
+.home{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 550px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 700px;
+    
+}
