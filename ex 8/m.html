@@ -1,0 +1,161 @@
+<!DOCTYPE hmtl>
+    <head>
+            <style>
+                img
+                {
+                    height: 400px;
+                }
+                body 
+                {
+                    background: linear-gradient(to right, #ffffff 50%, #aaaaaa 100%);
+                }   
+                .topnav{
+                    overflow: hidden;
+                    background-color: #c70a4b;
+                    padding: 1%;
+                }
+                div>a{
+                    padding-left: 12px;
+
+                }
+                .txt{
+                    text-decoration: none;
+                    color: black;
+                }
+                a.txt:hover{
+                    color: #ffffff;
+                }
+                .as{
+                    padding-left: 630px;
+                    margin-top: -462px;
+                }
+
+                .ad{
+                    padding-left: 1200px;
+                    margin-top: -460px;
+                }
+
+                .aq{
+                    padding-left: 300px;
+                }
+
+                .az{
+                    padding-left: 900px;
+                    margin-top: -450px;
+                }
+
+
+            </style>
+            <script>
+            var i=0;
+            var j=0;
+            var d=0;
+            var h=0;
+            var s=0;
+            function left()
+            {
+                if(i==0)
+                {
+                    document.getElementById("lc").src = "1.jpg";
+                    i=1;
+                }
+                else
+                {
+                    document.getElementById("lc").src = "2.jpg";
+                    i=0;
+                }
+            }
+            function hover()
+            {
+                
+                if(j==0)
+                {
+                    document.getElementById("hv").src = "4.jpg";
+                    j=1;
+                }
+                else
+                {
+                    document.getElementById("hv").src = "3.jpg";
+                    j=0;
+                }
+            }
+            function move()
+            {
+                if(d==0)
+                {
+                    document.getElementById("mm").src = "5.jpg";
+                    d=1;
+                }
+                else if(d==1)
+                {
+                    document.getElementById("mm").src = "6.jpg";
+                    d=0;
+                }
+                
+            }
+            function right()
+            {
+                if(h==0)
+                {
+                    document.getElementById("rc").src="7.jpg";
+                    h=1;
+                }
+
+                else
+                {
+                    document.getElementById("rc").src="8.jpg";
+
+                    h=0;
+                }
+
+            }
+
+            function handshake()
+            {
+                if(s==0)
+
+                {
+                    document.getElementById("shake").src="10.jpg";
+                    s=1;
+                }
+                else
+                {
+                    document.getElementById("shake").src="9.jpg";
+                    s=0;
+                }
+            }
+        </script>
+</head>
+<body>
+    <center>
+        <h1><u>Mouse Functions</u></h1>
+        <h2>Movies</h2>
+        <br>
+        <br>
+    </center>
+    <div>
+        <h4><u>Left Click :</u></h4>
+        <img src="1.jpg"  onclick="left()" id="lc">
+    </div>
+        
+    <div class="as">
+        <h4><u>Mouse cursor :</u></h4>
+        <img src="3.jpg" onmouseenter="hover()" onmouseleave="hover()" id="hv">
+    </div>
+
+    <div class="ad">
+        <h4><u>Double Click :</u></h4>
+        <img src="9.jpg" height="300px"  ondblclick="handshake()" id="shake">
+    </div>
+    
+    <div class="aq">
+        <h4><u>Right Click :</u></h4>
+        <img src="7.jpg" height="300px" contextmenu="right1" oncontextmenu="right()" id="rc">
+    </div>
+    
+    <div class="az">
+        <h4><u>Hover :</u></h4>
+        <img src="5.jpg" onmousedown="move()" onmouseup="move()" id="mm">
+    </div>    
+</body>
+</html>
